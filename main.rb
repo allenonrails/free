@@ -1,6 +1,20 @@
 require 'pony'
 require 'dotenv/load'
 
+# авторизация регистрация 
+#  - name  
+#  - password 
+#  - email
+
+# после регистрации пользователя отправляется письмо с данными
+#  - name
+#  - email
+#  - время регистрации
+
+
+def registration
+end
+
 Pony.mail({
   to: => 'you@example.com',
   subject: "New message",
